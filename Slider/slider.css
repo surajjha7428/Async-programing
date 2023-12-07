@@ -1,0 +1,27 @@
+body{
+    border:0px solid black;
+    width:100%;
+    margin:auto;
+}
+img{
+    width:100%;
+    height:100%;
+    margin:auto;
+    position:absolute;
+}
+button{
+    border:2px solid rgb(71, 66, 66);
+    width:15%;
+    height:9%;
+    margin-left:7%;
+    margin-top:53%;
+    background-color:transparent;
+    color:rgb(190, 191, 191);
+    border-radius:10px;
+    font-size:170%;
+    position:relative;
+}
+button:hover{
+    background-color:transparent;
+    transform:scale(0.95);
+}

@@ -1,0 +1,59 @@
+
+
+   #watch{
+    border:0.1px solid white;
+    width:50%;
+    height:200px;
+    margin:auto;
+    margin-top:12%;
+    border-radius:20px;
+    box-shadow: rgba(34, 32, 32, 0.35) 0px 5px 15px;
+}
+.display{
+    border:0px solid white;
+    width:40%;
+    margin:auto;
+    height:auto;
+    text-align: center;
+    margin-top:40px;
+    font-size:300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display:flex;
+    color: blue;
+}
+button{
+    width:20%;
+    height:20%;
+    margin-left:10%;
+    margin-top:5%;
+    border-radius:10px;
+    font-size:150%;
+    border:none;
+}
+#start{
+    background-color:blue;
+    color:white;
+}
+#start:hover{
+    background-color:darkblue;
+    transform:scale(1.02);
+    cursor: pointer;
+}
+#pause{
+    background-color:red;
+    color:white;
+}
+#pause:hover{
+    background-color:darkred;
+    transform:scale(1.02);
+    cursor: pointer;
+}
+#reset:hover{
+    background-color:rgb(230, 220, 220);
+    transform:scale(1.02);
+    cursor: pointer;
+}
+body{
+  background-color: rgb(151, 134, 128);
+}
